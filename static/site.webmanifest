@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Agenda Breeze",
+    "short_name": "breeze",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -10,10 +10,14 @@
         {
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "orientation": "any"
 }
